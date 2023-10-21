@@ -371,7 +371,7 @@ $("#id_btn_actualiza").click(function(){
         	"nombre": {
         		selector : '#id_reg_nombre',
                 validators: {
-                    notEmpty: {
+                    notEmpty: { 
                         message: 'El nombre es un campo obligatorio'
                     },
                     stringLength :{

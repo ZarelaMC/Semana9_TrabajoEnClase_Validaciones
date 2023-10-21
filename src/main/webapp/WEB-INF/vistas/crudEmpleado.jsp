@@ -46,7 +46,7 @@
 												<th style="width: 15%">País</th>
 												<th style="width: 10%">Actualiza</th>
 												<th style="width: 10%">Elimina</th>
-											</tr>
+											</tr> 
 										</thead>
 											<tbody>
 											</tbody>

@@ -56,7 +56,7 @@
 
 <script type="text/javascript">
 
-$.getJSON("listaTipo", {}, function(data){
+$.getJSON("listaTipo", {}, function(data){ 
 	$.each(data, function(index,item){
 		$("#id_tipo").append("<option value="+item.idTipo +">"+ item.descripcion +"</option>");
 	});

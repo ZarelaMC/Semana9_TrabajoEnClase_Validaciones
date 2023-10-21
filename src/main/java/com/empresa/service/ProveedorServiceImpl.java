@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.empresa.entity.Proveedor;
 import com.empresa.repository.ProveedorRepository;
-
+ 
 @Service
 public class ProveedorServiceImpl implements ProveedorService{
 

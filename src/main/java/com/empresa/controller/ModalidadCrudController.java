@@ -80,7 +80,7 @@ public class ModalidadCrudController {
 		} else {
 			List<Modalidad> lista = modalidadService.listaPorNombreLike("%");
 			map.put("lista", lista);
-		}
+		} 
 		return map;
 	}
 	
