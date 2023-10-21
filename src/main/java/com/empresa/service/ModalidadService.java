@@ -15,4 +15,9 @@ public interface ModalidadService {
 	
 	public abstract List<Modalidad> buscaPorDeporteEnSede(String sede, int idDeporte);
 	
+	
+	
+	//--------------- Mètodos para VALIACIÒN - Semana 09 --------------------------
+	public abstract List<Modalidad> listaPorNombreIgualRegistra(String nombre);
+	public abstract List<Modalidad> listaPorNombreIgualActualiza(String nombre, int id);
 }

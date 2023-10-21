@@ -45,6 +45,19 @@ public class ModalidadServiceImpl implements ModalidadService{
 		return repository.buscaPorDeporteEnSede(sede, idDeporte);
 	}
 
+	//--------------- Mètodos para VALIACIÒN - Semana 09 --------------------------
+	//Para el Registrar
+	@Override
+	public List<Modalidad> listaPorNombreIgualRegistra(String nombre) {
+		return repository.listaPorNombreIgual(nombre);
+	}
+
+	//Para el Actualizar
+	@Override
+	public List<Modalidad> listaPorNombreIgualActualiza(String nombre, int id) {
+		return repository.listaPorNombreIgualActualiza(nombre, id);
+	}
+
 
 
 }

@@ -15,4 +15,13 @@ public interface ModalidadRepository extends JpaRepository<Modalidad, Integer>{
 
 	@Query("select x from Modalidad x where x.sede = ?1 and x.deporte.idDeporte =?2")
 	public List<Modalidad> buscaPorDeporteEnSede(String sede, int idDeporte);
+	
+	
+	//--------------- Mètodos para VALIACIÒN - Semana 09 --------------------------
+	@Query("select x from Modalidad x where x.nombre = ?1") //Para el Registrar
+	public List<Modalidad> listaPorNombreIgual(String nombre);
+	
+	@Query("select x from Modalidad x where x.nombre = ?1 and x.idModalidad !=?2") //Para la Actualizaciòn
+	public List<Modalidad> listaPorNombreIgualActualiza(String nombre, int id);
+	
 }
