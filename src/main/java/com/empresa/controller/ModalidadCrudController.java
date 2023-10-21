@@ -59,7 +59,7 @@ public class ModalidadCrudController {
 		if (objSalida == null) {
 			map.put("mensaje", "Error en actualizar");
 		} else {
-			List<Modalidad> lista = modalidadService.listaPorNombreLike("%");
+			List<Modalidad> lista = modalidadService.listaPorNombreLike("%"); 
 			map.put("lista", lista);
 			map.put("mensaje", "Actualización exitosa");
 		}
