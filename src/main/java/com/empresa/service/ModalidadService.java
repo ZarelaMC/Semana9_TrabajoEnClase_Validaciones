@@ -14,7 +14,7 @@ public interface ModalidadService {
 	public abstract Optional<Modalidad> buscaModalidad(int idModalidad);
 	
 	public abstract List<Modalidad> buscaPorDeporteEnSede(String sede, int idDeporte);
-	 
+	  
 	
 	
 	//--------------- Mètodos para VALIACIÒN - Semana 09 --------------------------

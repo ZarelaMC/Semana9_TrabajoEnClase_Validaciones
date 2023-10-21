@@ -14,7 +14,7 @@ public class ProveedorServiceImpl implements ProveedorService{
 	@Autowired
 	private ProveedorRepository repository;
 	
-	@Override 
+	@Override  
 	public Proveedor insertaProveedor(Proveedor obj) {
 		return repository.save(obj);
 	}
